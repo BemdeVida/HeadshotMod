@@ -1,0 +1,41 @@
+[center][h1]🎯 HEADSHOT MOD[/h1]
+[i]Precision meets Arcade Fighting Game action in Terraria![/i][/center]
+
+[hr][/hr]
+
+[h2]📖 Sobre o Mod / About[/h2]
+Eleve o combate do Terraria a outro nível! O [b]Headshot Mod[/b] recompensa sua mira precisa com multiplicadores de dano devastadores, acertos críticos garantidos e uma interface dinâmica inspirada em jogos de luta como [i]Guilty Gear Xrd[/i].
+
+Take Terraria's combat to the next level! [b]Headshot Mod[/b] rewards your precise aim with devastating damage multipliers, guaranteed critical hits, and a dynamic UI inspired by arcade fighting games.
+
+[hr][/hr]
+
+[h2]⚡ Principais Recursos / Key Features[/h2]
+[list]
+[*] [b]Mecânica de Headshot Direta:[/b] Acerte o topo da hitbox dos inimigos com armas Ranged, Melee ou Magic para aplicar dano amplificado e crits.
+[*] [b]Contador de Combo Arcade:[/b] Textos animados em néon, rotação dinâmica e frases reativas ([i]BEAT![/i], [i]PUNISH![/i], [i]OVERKILL![/i]).
+[*] [b]Editor de UI Drag & Drop:[/b] Abra o inventário ([kbd]Esc[/kbd]) e arraste o contador livremente para qualquer canto da tela.
+[*] [b]Feedback Visual & Impacto:[/b] Hitmarkers customizados com partículas e trepidação de tela ajustável.
+[*] [b]ModConfig Completo:[/b] Sliders in-game para ajustar multiplicadores de dano, área de cabeça, escala de partículas e trepidação.
+[/list]
+
+[hr][/hr]
+
+[h2]🎮 Como Usar / How to Use[/h2]
+[list]
+[*] [b]Mover a UI:[/b] Abra o inventário e segure o botão esquerdo do mouse sobre o contador para reposicioná-lo.
+[*] [b]Configurações:[/b] Acesse [i]Aparência > Configurações de Mods > Headshot Mod[/i] no menu para personalizar sliders e efeitos.
+[/list]
+
+[hr][/hr]
+
+[h2]🛠️ Compatibilidade / Compatibility[/h2]
+[list]
+[*] [b]tModLoader:[/b] v1.4.4+
+[*] [b]Multiplayer:[/b] Não testei ainda se tem suporte para servidor e cliente. Avisem se o mod estiver funcionando em servidores.
+[*] [b]Outros Mods:[/b] Estou testando ainda o Headshot Mod com outros mods (Calamity, Thorium, etc.), mas bem provável que sim.
+[/list]
+
+[hr][/hr]
+
+[center][i]Criado com foco em gameplay e performance. Bom jogo![/i][/center]

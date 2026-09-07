@@ -1,0 +1,5 @@
+displayName = Headshot Mod
+author = BemdeVida
+version = 26.09.05
+modReferences = 
+noCompile = false

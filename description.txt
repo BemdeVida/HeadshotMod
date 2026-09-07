@@ -1,0 +1,31 @@
+🎯 HEADSHOT MOD — A precisão encontra a ação estilo Fighting Game!
+
+Eleve o combate do Terraria a outro nível! O Headshot Mod recompensa sua mira precisa com multiplicadores de dano devastadores, acertos críticos garantidos e uma interface dinâmica inspirada em jogos de luta arcade como Guilty Gear Xrd.
+
+⚡ Destaques do Mod:
+
+Mecânica de Headshot Direta: Acerte o topo da hitbox dos inimigos para causar dano massivo amplificado com projéteis, armas de longo alcance, magia ou combate corpo a corpo.
+
+Contador de Combo Estilo Fighting Game: Acompanhe seus acertos em tempo real com textos animados em néon, rotação dinâmica e frases como BEAT!, PUNISH! e OVERKILL!.
+
+UI Totalmente Interativa (Editor Drag & Drop): Abra seu inventário e arraste o contador para onde quiser na tela com facilidade.
+
+Impacto e Feedback Visual: Hitmarkers personalizados com partículas e trepidação de tela ajustável para cada tiro na cabeça bem-sucedido.
+
+Altamente Configurável: Ajuste multiplicadores de dano, sensibilidade de hitbox, tamanho do hitmarker e posição da UI diretamente no menu do jogo através de sliders dinâmicos.
+
+🎯 HEADSHOT MOD — Precision meets Fighting Game action!
+
+Take Terraria's combat to the next level! Headshot Mod rewards your precise aim with devastating damage multipliers, guaranteed critical hits, and a dynamic UI inspired by arcade fighting games like Guilty Gear Xrd.
+
+⚡ Key Features:
+
+Direct Headshot Mechanics: Hit the top portion of enemy hitboxes to land massive amplified damage across ranged, melee, and magic weapons.
+
+Fighting Game Style Combo Counter: Track your streak in real-time with neon glow animations, dynamic text rotation, and dynamic callouts like BEAT!, PUNISH!, and OVERKILL!.
+
+Fully Interactive UI (Drag & Drop Editor): Open your inventory and drag the combo counter to any position on your screen with ease.
+
+Visual Feedback & Impact: Custom particle hitmarkers and screen shake intensity for every landed headshot.
+
+Fully Customizable: Tweak damage multipliers, head hitbox coverage, hitmarker scale, and UI screen positions directly from the in-game menu sliders.

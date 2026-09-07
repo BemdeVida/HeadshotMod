@@ -1,0 +1,144 @@
+Mods: {
+	HeadshotMod: {
+		Configs: {
+			HeadshotConfig: {
+				DisplayName: Configurações do Headshot Mod
+
+				Headers: {
+					Interface: Configurações de Interface
+					Combat: Mecânicas de Combate
+					Visuals: Efeitos Visuais
+				}
+
+				EnableComboUI: {
+					Label: Ativar UI de Combo
+					Tooltip: Exibe a interface estilo Arcade na tela.
+				}
+
+				ComboUIX: {
+					Label: Posição X da UI
+					Tooltip: Ajuste horizontal da interface na tela.
+				}
+
+				ComboUIY: {
+					Label: Posição Y da UI
+					Tooltip: Ajuste vertical da interface na tela.
+				}
+
+				DamageMultiplier: {
+					Label: Multiplicador de Dano
+					Tooltip: Define quanto o dano do acerto na cabeça é multiplicado.
+				}
+
+				HeadAreaPercentage: {
+					Label: Tamanho da Hitbox da Cabeça
+					Tooltip: Porcentagem do topo do NPC que registra como cabeça.
+				}
+
+				EnableHitmarker: {
+					Label: Ativar Hitmarker
+					Tooltip: Exibe o indicador visual de impacto.
+				}
+
+				HitmarkerScale: {
+					Label: Escala do Hitmarker
+					Tooltip: Tamanho do indicador visual.
+				}
+
+				HitmarkerSpeed: {
+					Label: Velocidade do Hitmarker
+					Tooltip: Velocidade das partículas do indicador visual.
+				}
+
+				EnableScreenShake: {
+					Label: Ativar Trepidação de Tela
+					Tooltip: Tremor de câmera ao acertar tiros na cabeça.
+				}
+
+				ScreenShakeDuration: {
+					Label: Duração da Trepidação
+					Tooltip: Tempo em frames que a tela treme.
+				}
+
+				ScreenShakeIntensity: {
+					Label: Intensidade da Trepidação
+					Tooltip: Força do tremor de câmera.
+				}
+			}
+		}
+	}
+}
+
+Buffs: {
+	HeadshotBuff: {
+		DisplayName: Na Cabeça!
+		Description: Velocidade de Ataque(Máx 2.5x) e Movimento(Máx 2.0x) elevado ao máximo no 5º HIT.
+	}
+}
+
+Configs: {
+	HeadshotConfig: {
+		DisplayName: Headshot Config
+
+		Headers: {
+			Interface: Interface Header
+			Combat: Combat Header
+			Visuals: Visuals Header
+		}
+
+		EnableComboUI: {
+			Label: Enable Combo U I
+			Tooltip: ""
+		}
+
+		ComboUIX: {
+			Label: Combo U I X
+			Tooltip: ""
+		}
+
+		ComboUIY: {
+			Label: Combo U I Y
+			Tooltip: ""
+		}
+
+		DamageMultiplier: {
+			Label: Damage Multiplier
+			Tooltip: ""
+		}
+
+		HeadAreaPercentage: {
+			Label: Head Area Percentage
+			Tooltip: ""
+		}
+
+		EnableHitmarker: {
+			Label: Enable Hitmarker
+			Tooltip: ""
+		}
+
+		HitmarkerScale: {
+			Label: Hitmarker Scale
+			Tooltip: ""
+		}
+
+		HitmarkerSpeed: {
+			Label: Hitmarker Speed
+			Tooltip: ""
+		}
+
+		EnableScreenShake: {
+			Label: Enable Screen Shake
+			Tooltip: ""
+		}
+
+		ScreenShakeDuration: {
+			Label: Screen Shake Duration
+			Tooltip: ""
+		}
+
+		ScreenShakeIntensity: {
+			Label: Screen Shake Intensity
+			Tooltip: ""
+		}
+	}
+}

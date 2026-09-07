@@ -1,0 +1,15 @@
+Mods: {
+	HeadshotMod: {
+		Configs: {
+			HeadshotConfig: {
+				DisplayName: Headshot Mod Config
+
+				Headers: {
+					Interface: Interface Settings
+					Combat: Combat Mechanics
+					Visuals: Visual Effects
+				}
+			}
+		}
+	}
+}
