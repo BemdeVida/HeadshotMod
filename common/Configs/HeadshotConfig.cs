@@ -11,18 +11,6 @@ namespace HeadshotMod.Common.Configs
         [DefaultValue(true)]
         public bool EnableComboUI;
 
-        [DefaultValue(0.72f)]
-        [Range(0.0f, 1.0f)]
-        [Increment(0.01f)]
-        [Slider]
-        public float ComboUIX;
-
-        [DefaultValue(0.28f)]
-        [Range(0.0f, 1.0f)]
-        [Increment(0.01f)]
-        [Slider]
-        public float ComboUIY;
-
         [Header("Combat")]
         [DefaultValue(1.5f)]
         [Range(1.0f, 50.0f)]

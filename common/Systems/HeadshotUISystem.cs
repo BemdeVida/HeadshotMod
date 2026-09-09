@@ -17,6 +17,9 @@ namespace HeadshotMod.Common.Systems
         private static bool isDragging = false;
         private static Vector2 dragOffset;
 
+        // Posição padrão inicial caso o jogador nunca tenha arrastado (ex: centro superior/médio da tela)
+        private static Vector2? savedPosition = null;
+
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {
             int resourceBarIndex = layers.FindIndex(layer =>
@@ -56,10 +59,13 @@ namespace HeadshotMod.Common.Systems
             if (displayCombo <= 0)
                 return;
 
-            Vector2 position = new Vector2(
-                Main.screenWidth * config.ComboUIX,
-                Main.screenHeight * config.ComboUIY
-            );
+            // Define uma posição padrão na primeira execução (por exemplo, meio da tela horizontal e 30% vertical)
+            if (!savedPosition.HasValue)
+            {
+                savedPosition = new Vector2(Main.screenWidth * 0.5f, Main.screenHeight * 0.3f);
+            }
+
+            Vector2 position = savedPosition.Value;
             string comboText = $"{displayCombo} HITS!";
 
             string subText = displayCombo switch
@@ -85,7 +91,7 @@ namespace HeadshotMod.Common.Systems
 
             Vector2 mousePos = Main.MouseScreen;
 
-            // Lógica de Arraste (Editor)
+            // Lógica de Arraste Direto na Tela (Editor)
             if (Main.playerInventory || modPlayer.ComboCount > 0)
             {
                 if (Main.mouseLeft && uiHitbox.Contains(mousePos.ToPoint()) && !isDragging)
@@ -99,8 +105,12 @@ namespace HeadshotMod.Common.Systems
                     if (Main.mouseLeft)
                     {
                         Vector2 newPos = mousePos - dragOffset;
-                        config.ComboUIX = MathHelper.Clamp(newPos.X / Main.screenWidth, 0f, 0.9f);
-                        config.ComboUIY = MathHelper.Clamp(newPos.Y / Main.screenHeight, 0f, 0.9f);
+
+                        // Mantém a UI dentro dos limites da tela com segurança
+                        newPos.X = MathHelper.Clamp(newPos.X, 50f, Main.screenWidth - 100f);
+                        newPos.Y = MathHelper.Clamp(newPos.Y, 50f, Main.screenHeight - 100f);
+
+                        savedPosition = newPos;
                     }
                     else
                     {
